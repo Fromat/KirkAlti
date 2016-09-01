@@ -21,7 +21,7 @@ public class GameScreen extends Screen{
 		super(act);
 		hexMap = new HexGrid();
 		hexMap.setNumberOfTargets();
-
+		
 		tempPaint.setTextSize(100);
 		tempPaint.setColor(Color.GREEN);
 	}
@@ -47,7 +47,7 @@ public class GameScreen extends Screen{
 	@Override
 	public void update(float dt) {
 
-
+			// added a text line
 	}
 
 	@Override
